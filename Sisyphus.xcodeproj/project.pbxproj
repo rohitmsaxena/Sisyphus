@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C0D666A02D4ABBD200D5BC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D666862D4ABBD100D5BC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D6668D2D4ABBD100D5BC56;
+			remoteInfo = Sisyphus;
+		};
+		C0D666AA2D4ABBD200D5BC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D666862D4ABBD100D5BC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D6668D2D4ABBD100D5BC56;
+			remoteInfo = Sisyphus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0D6668E2D4ABBD100D5BC56 /* Sisyphus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sisyphus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D6669F2D4ABBD200D5BC56 /* SisyphusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisyphusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D666A92D4ABBD200D5BC56 /* SisyphusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisyphusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C0D666902D4ABBD100D5BC56 /* Sisyphus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sisyphus;
+			sourceTree = "<group>";
+		};
+		C0D666A22D4ABBD200D5BC56 /* SisyphusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SisyphusTests;
+			sourceTree = "<group>";
+		};
+		C0D666AC2D4ABBD200D5BC56 /* SisyphusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SisyphusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D6668B2D4ABBD100D5BC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D6669C2D4ABBD200D5BC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D666A62D4ABBD200D5BC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0D666852D4ABBD100D5BC56 = {
+			isa = PBXGroup;
+			children = (
+				C0D666902D4ABBD100D5BC56 /* Sisyphus */,
+				C0D666A22D4ABBD200D5BC56 /* SisyphusTests */,
+				C0D666AC2D4ABBD200D5BC56 /* SisyphusUITests */,
+				C0D6668F2D4ABBD100D5BC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D6668F2D4ABBD100D5BC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D6668E2D4ABBD100D5BC56 /* Sisyphus.app */,
+				C0D6669F2D4ABBD200D5BC56 /* SisyphusTests.xctest */,
+				C0D666A92D4ABBD200D5BC56 /* SisyphusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D6668D2D4ABBD100D5BC56 /* Sisyphus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D666B32D4ABBD200D5BC56 /* Build configuration list for PBXNativeTarget "Sisyphus" */;
+			buildPhases = (
+				C0D6668A2D4ABBD100D5BC56 /* Sources */,
+				C0D6668B2D4ABBD100D5BC56 /* Frameworks */,
+				C0D6668C2D4ABBD100D5BC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C0D666902D4ABBD100D5BC56 /* Sisyphus */,
+			);
+			name = Sisyphus;
+			packageProductDependencies = (
+			);
+			productName = Sisyphus;
+			productReference = C0D6668E2D4ABBD100D5BC56 /* Sisyphus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0D6669E2D4ABBD200D5BC56 /* SisyphusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D666B62D4ABBD200D5BC56 /* Build configuration list for PBXNativeTarget "SisyphusTests" */;
+			buildPhases = (
+				C0D6669B2D4ABBD200D5BC56 /* Sources */,
+				C0D6669C2D4ABBD200D5BC56 /* Frameworks */,
+				C0D6669D2D4ABBD200D5BC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D666A12D4ABBD200D5BC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C0D666A22D4ABBD200D5BC56 /* SisyphusTests */,
+			);
+			name = SisyphusTests;
+			packageProductDependencies = (
+			);
+			productName = SisyphusTests;
+			productReference = C0D6669F2D4ABBD200D5BC56 /* SisyphusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0D666A82D4ABBD200D5BC56 /* SisyphusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D666B92D4ABBD200D5BC56 /* Build configuration list for PBXNativeTarget "SisyphusUITests" */;
+			buildPhases = (
+				C0D666A52D4ABBD200D5BC56 /* Sources */,
+				C0D666A62D4ABBD200D5BC56 /* Frameworks */,
+				C0D666A72D4ABBD200D5BC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D666AB2D4ABBD200D5BC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C0D666AC2D4ABBD200D5BC56 /* SisyphusUITests */,
+			);
+			name = SisyphusUITests;
+			packageProductDependencies = (
+			);
+			productName = SisyphusUITests;
+			productReference = C0D666A92D4ABBD200D5BC56 /* SisyphusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D666862D4ABBD100D5BC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C0D6668D2D4ABBD100D5BC56 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C0D6669E2D4ABBD200D5BC56 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C0D6668D2D4ABBD100D5BC56;
+					};
+					C0D666A82D4ABBD200D5BC56 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C0D6668D2D4ABBD100D5BC56;
+					};
+				};
+			};
+			buildConfigurationList = C0D666892D4ABBD100D5BC56 /* Build configuration list for PBXProject "Sisyphus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0D666852D4ABBD100D5BC56;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C0D6668F2D4ABBD100D5BC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D6668D2D4ABBD100D5BC56 /* Sisyphus */,
+				C0D6669E2D4ABBD200D5BC56 /* SisyphusTests */,
+				C0D666A82D4ABBD200D5BC56 /* SisyphusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D6668C2D4ABBD100D5BC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D6669D2D4ABBD200D5BC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D666A72D4ABBD200D5BC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D6668A2D4ABBD100D5BC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D6669B2D4ABBD200D5BC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D666A52D4ABBD200D5BC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0D666A12D4ABBD200D5BC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D6668D2D4ABBD100D5BC56 /* Sisyphus */;
+			targetProxy = C0D666A02D4ABBD200D5BC56 /* PBXContainerItemProxy */;
+		};
+		C0D666AB2D4ABBD200D5BC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D6668D2D4ABBD100D5BC56 /* Sisyphus */;
+			targetProxy = C0D666AA2D4ABBD200D5BC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0D666B12D4ABBD200D5BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0D666B22D4ABBD200D5BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C0D666B42D4ABBD200D5BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sisyphus/Sisyphus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sisyphus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.Sisyphus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0D666B52D4ABBD200D5BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sisyphus/Sisyphus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sisyphus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.Sisyphus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0D666B72D4ABBD200D5BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.SisyphusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisyphus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sisyphus";
+			};
+			name = Debug;
+		};
+		C0D666B82D4ABBD200D5BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.SisyphusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisyphus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sisyphus";
+			};
+			name = Release;
+		};
+		C0D666BA2D4ABBD200D5BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.SisyphusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sisyphus;
+			};
+			name = Debug;
+		};
+		C0D666BB2D4ABBD200D5BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.SisyphusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sisyphus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D666892D4ABBD100D5BC56 /* Build configuration list for PBXProject "Sisyphus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D666B12D4ABBD200D5BC56 /* Debug */,
+				C0D666B22D4ABBD200D5BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D666B32D4ABBD200D5BC56 /* Build configuration list for PBXNativeTarget "Sisyphus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D666B42D4ABBD200D5BC56 /* Debug */,
+				C0D666B52D4ABBD200D5BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D666B62D4ABBD200D5BC56 /* Build configuration list for PBXNativeTarget "SisyphusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D666B72D4ABBD200D5BC56 /* Debug */,
+				C0D666B82D4ABBD200D5BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D666B92D4ABBD200D5BC56 /* Build configuration list for PBXNativeTarget "SisyphusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D666BA2D4ABBD200D5BC56 /* Debug */,
+				C0D666BB2D4ABBD200D5BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D666862D4ABBD100D5BC56 /* Project object */;
+}
