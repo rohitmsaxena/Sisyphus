@@ -1,17 +1,16 @@
-//
-//  SisyphusApp.swift
-//  Sisyphus
-//
-//  Created by Rohit Saxena on 1/29/25.
-//
-
 import SwiftUI
 
 @main
 struct SisyphusApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    init() {
+        let types = NSPasteboard.general.types ?? []
+        print("Clipboard contains types: \(types)")
+    }
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView()
         }
     }
 }
