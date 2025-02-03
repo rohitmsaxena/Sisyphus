@@ -1,2 +1,2 @@
-## Sisyphus
-# Mac's ideal clipboard
+# Sisyphus
+### Mac's ideal clipboard
