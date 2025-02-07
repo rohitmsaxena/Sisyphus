@@ -1,17 +1,9 @@
-//
-//  AppDelegate.swift
-//  Sisyphus
-//
-//  Created by Rohit Saxena on 1/29/25.
-//
-
-
 import SwiftUI
 import KeyboardShortcuts
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     private var menuBarController: MenuBarController!
-    private var clipboardManager = ClipboardManager.shared 
+    private var clipboardManager = ClipboardManager.shared
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         clipboardManager = ClipboardManager.shared
@@ -25,20 +17,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         for i in 1...9 {
             let shortcutName = KeyboardShortcuts.Name("pasteItem\(i)")
             
-            // ✅ Debugging print
-//            print("Registering shortcut: Command + Shift + \(i) -> pasteItem\(i)")
-
             KeyboardShortcuts.onKeyDown(for: shortcutName) {
-//                print("Shortcut pressed: Command + Shift + \(i)") // ✅ Debugging
                 ClipboardManager.shared.pasteItem(at: i - 1)
             }
 
             let key = KeyboardShortcuts.Key(rawValue: keyCodes[i - 1]) // Use key code
-            let modifiers: NSEvent.ModifierFlags = [.command, .shift] // Command + Shift
+            let modifiers: NSEvent.ModifierFlags = [.command, .option] // Command + Option
             
             KeyboardShortcuts.setShortcut(.init(key, modifiers: modifiers), for: shortcutName)
         }
     }
-
 }
- 

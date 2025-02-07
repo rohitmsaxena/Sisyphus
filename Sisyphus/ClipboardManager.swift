@@ -7,8 +7,6 @@ class ClipboardManager: ObservableObject {
     private var timer: Timer?
     private let pasteboard = NSPasteboard.general
     private var lastChangeCount: Int
-    private var restoreClipboardWorkItem: DispatchWorkItem?
-    private var isRestoringClipboard = false
     private var isPastingFromHistory = false
 
     private init() {
@@ -24,11 +22,6 @@ class ClipboardManager: ObservableObject {
     }
     
     private func checkClipboard() {
-        if isRestoringClipboard || isPastingFromHistory {
-            print("♻️ Skipping clipboard check (Restoring clipboard or Pasting from history)")
-            return
-        }
-
         guard pasteboard.changeCount != lastChangeCount else { return }
         lastChangeCount = pasteboard.changeCount
 
@@ -89,12 +82,6 @@ class ClipboardManager: ObservableObject {
 
         let item = history[index]
 
-        // ✅ Save original clipboard content before pasting
-        let originalClipboard = pasteboard.pasteboardItems ?? []
-
-        // ✅ **Disable Clipboard Monitoring While Pasting**
-        isPastingFromHistory = true
-
         pasteboard.clearContents()
 
         switch item {
@@ -127,40 +114,6 @@ class ClipboardManager: ObservableObject {
         }
 
         simulatePaste()
-
-        // ✅ Cancel previous restore to prevent conflicts
-        restoreClipboardWorkItem?.cancel()
-
-        let restoreWorkItem = DispatchWorkItem { [self] in
-            self.isRestoringClipboard = true  // ✅ Pause clipboard monitoring
-            self.pasteboard.clearContents()
-
-            let newClipboardItems = originalClipboard.map { originalItem -> NSPasteboardItem in
-                let newItem = NSPasteboardItem()
-                for type in originalItem.types {
-                    if let data = originalItem.data(forType: type) {
-                        newItem.setData(data, forType: type)
-                    } else if let string = originalItem.string(forType: type) {
-                        newItem.setString(string, forType: type)
-                    }
-                }
-                return newItem
-            }
-
-            self.pasteboard.writeObjects(newClipboardItems)
-            print("♻️ Restored original clipboard")
-
-            // ✅ **Fix: Ensure Cmd + V Pastes Restored Clipboard**
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                self.lastChangeCount = self.pasteboard.changeCount
-                self.isRestoringClipboard = false
-                self.isPastingFromHistory = false  // ✅ **Re-enable Clipboard Monitoring**
-                print("✅ Clipboard restoration complete, Cmd + V should now work.")
-            }
-        }
-
-        restoreClipboardWorkItem = restoreWorkItem
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: restoreWorkItem) // ✅ Longer delay for stability
     }
 
     /// **📌 Simulate Cmd + V to Paste**
